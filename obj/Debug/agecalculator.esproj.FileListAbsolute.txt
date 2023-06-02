@@ -1,0 +1,2 @@
+C:\Users\HåkonVadstein\source\repos\AgeCalculator\obj\Debug\agecalculator.esproj.SuggestedBindingRedirects.cache
+C:\Users\HåkonVadstein\source\repos\AgeCalculator\obj\Debug\agecalculator.esproj.CoreCompileInputs.cache
