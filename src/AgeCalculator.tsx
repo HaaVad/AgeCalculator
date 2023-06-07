@@ -32,15 +32,15 @@ export const AgeCalculator: React.FC = () => {
             <div className="row">
                 <div className="col">
                     <label htmlFor="day">DAY</label>
-                    <input type="number" id="day" value={day ?? ''} onChange={(event) => handleInputChange(event, setDay)} min={1} max={31} />
+                    <input className="input" placeholder="DD" type="number" id="day" value={day ?? ''} onChange={(event) => handleInputChange(event, setDay)} min={1} max={31} />
                 </div>
                 <div className="col">
                     <label htmlFor="month">MONTH</label>
-                    <input type="number" id="month" value={month ?? ''} onChange={(event) => handleInputChange(event, setMonth)} min={1} max={12} />
+                    <input className="input" placeholder="MM" type="number" id="month" value={month ?? ''} onChange={(event) => handleInputChange(event, setMonth)} min={1} max={12} />
                 </div>
                 <div className="col">
                     <label htmlFor="year">YEAR</label>
-                    <input type="number" id="year" value={year ?? ''} onChange={(event) => handleInputChange(event, setYear)} />
+                    <input className="input" placeholder="YYYY" type="number" id="year" value={year ?? ''} onChange={(event) => handleInputChange(event, setYear)} />
                 </div>
             </div>
             <div className="divider">

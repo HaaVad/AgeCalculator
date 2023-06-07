@@ -1,8 +1,9 @@
 .App {
-   
+    /* Add any styles for your app container here */
 }
 
 .container {
+    /* Styles for the main container */
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -15,6 +16,7 @@
 }
 
 .row {
+    /* Styles for the row container */
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -22,12 +24,17 @@
 }
 
 .App-link {
-  color: #61dafb;
+    /* Styles for the link in your app */
+    color: #61dafb;
 }
+
 .number {
+    /* Styles for the number element */
     color: #864dfe;
 }
+
 .col {
+    /* Styles for the column */
     font-family: "CustomFont", sans-serif;
     font-size: 10px;
     color: #757575;
@@ -37,12 +44,15 @@
 }
 
 .results {
+    /* Styles for the results container */
     font-family: "CustomBold", sans-serif;
     justify-content: left;
     margin-top: 0px;
     font-size: 68px;
 }
+
 .result {
+    /* Styles for each result */
     flex-direction: row;
     display: flex;
     margin-bottom: 0px;
@@ -50,6 +60,7 @@
 }
 
 input {
+    /* Styles for the input fields */
     padding: 10px;
     font-family: "CustomFont", sans-serif;
     font-weight: bold;
@@ -60,20 +71,7 @@ input {
     margin-top: 6px;
 }
 
-input.active {
+    input:focus {
+        /* Styles for the active input field */
         border-color: #864dfe;
-        color: #864dfe;
-}
-
-
-
-/*.divider {
-    position:absolute;
-    margin: 00px;
-    top: 50%;
-    left: 10%; 
-    width: 340px; 
-    height: 1px;
-    background-color: #ececec; 
-}
-*/
+    }
